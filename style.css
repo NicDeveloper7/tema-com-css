@@ -1,0 +1,29 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+
+    background-image: url(img/maxresdefault.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.caixa-principal{
+    background-color: black;
+    box-shadow: 10px 10px 0px 0px white;
+    border-radius: 20px;
+    border: 1px solid white;
+    width: 600px;
+    height: 400px;
+    transition: 0.5s ;
+}
+.caixa-principal:hover{
+    background-color: transparent;
+    box-shadow: 10px 10px 0px 0px transparent;
+    border: 1px solid transparent;
+}
+h1 {
+    color: white;
+}
